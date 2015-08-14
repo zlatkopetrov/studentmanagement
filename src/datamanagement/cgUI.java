@@ -17,7 +17,12 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 	float f2;
 	float f3;
 	Integer sid;
-
+        
+        
+        /**
+         * Constructor that accepts variable from type cgUI
+         * @param ctl 
+         */
 	public cgUI(cgCTL ctl) {
 		this.ctl = ctl;
 		uM = new javax.swing.DefaultComboBoxModel(new String[0]);
